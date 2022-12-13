@@ -1,0 +1,74 @@
+.footer {
+    justify-content: center;
+}
+
+.footer-logo {
+    margin: 0;
+    padding: 0;
+    float: left;
+    cursor: pointer;
+}
+
+.footer-contact {
+    float: right;
+    cursor: pointer;
+}
+
+.footer-title {
+    display:inline-block;
+    cursor: auto;
+    padding: 6px 15px;
+    width: 100%;
+
+    text-decoration: none;
+    text-align: center;
+    font-size: 11x;
+    color: rgb(255, 0, 0);
+}
+
+.footer-links {
+    /* position: absolute; */
+    display: flex;
+    z-index: 1;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-show {
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.footer-a {
+    display: block;
+    width: 40px;
+    font-size: 25px;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    color: rgb(0, 0, 0);
+}
+
+.footer-about {
+    text-align: justify;
+
+    color: rgb(0, 0, 0);;
+}
+
+#googleMap {
+    position: relative;
+}
+
+.copyright {
+    padding-top: 16px;
+    background-color: black;
+    color: azure;
+}
+
+.text-copyright {
+    text-align: center;
+}

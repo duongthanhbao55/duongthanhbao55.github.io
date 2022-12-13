@@ -1,0 +1,91 @@
+.top-nav{
+    max-width: 100%;
+    height: 80px;
+
+    margin: auto;
+    top: 0;
+    left: 0;
+
+    justify-content: space-between;
+    align-items: center;
+
+    background-image: url("/BAI_THUC_HANH_2/Picture/Header/BackgroudNav.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ################################################################# */
+
+.logo{
+    position: absolute;
+    z-index: 9;
+    float: left;
+    cursor: pointer;
+}
+
+/* ################################################################# */
+
+.nav-ul{
+    display: flex;
+    z-index: 1;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-li{
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.nav-a{
+    display: block;
+    width: 100px;
+    padding: 5px;
+    margin: 1px 10px 1px 10px;
+
+    border-radius: 10px;
+
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+
+    color: rgb(0, 0, 0);
+    background-color: #ffd8d8;
+}
+
+.nav-a:hover{
+    text-decoration: none;
+
+    color: #ffffff;
+    background: #ff9090;
+
+    border-bottom: 5px solid #000000;
+}
+
+.nav-ul-2{
+    list-style: none;
+}
+
+.nav-li-2{
+    float: none;
+}
+
+.nav-ul-2{
+    display: none;
+}
+
+.nav-li:hover .nav-ul-2{
+    display: block;
+    z-index: 1;
+
+    border-radius: 10px;
+}
+
+.nav-li-2:hover{
+    border-radius: 10px;
+    z-index: 1;
+}

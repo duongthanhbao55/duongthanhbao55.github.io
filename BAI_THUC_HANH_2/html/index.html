@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Báo tuổi trẻ</title>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+          <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+          <script src="/BAI_THUC_HANH_2/js/return.js"></script>
+          <link rel="stylesheet" href="/BAI_THUC_HANH_2/css/navTop.css">
+          <link rel="stylesheet" href="/BAI_THUC_HANH_2/css/main.css">
+          <link rel="stylesheet" href="/BAI_THUC_HANH_2/css/slider.css">
+          <link rel="stylesheet" href="/BAI_THUC_HANH_2/css/listposts.css">
+          <link rel="stylesheet" href="/BAI_THUC_HANH_2/css/menu.css">
+          <link rel="stylesheet" href="/BAI_THUC_HANH_2/css/footer.css">
+          <link rel="stylesheet" href="/BAI_THUC_HANH_2/css/paginatione.css">
+          <link rel="stylesheet" href="/BAI_THUC_HANH_2/css/directional.css">
+          <link rel="stylesheet" href="/BAI_THUC_HANH_2/css/distance.css">
+     </head>
+     <body>
+          <!-- Begin Directional -->
+          <div title="Về đầu trang" id="top-up">
+               <i class="fa fa-chevron-circle-up"></i>
+          </div>
+          <!-- End Directional -->
+
+          <!-- begin header -->
+          <div class="top-nav">
+               <div class="container">
+                    <div class="row">
+                         <div class="col">
+                              <div class="logo">
+                                   <a href="/BAI_THUC_HANH_2/html/index.html"><img src="/BAI_THUC_HANH_2/Picture/Header/Logo.png" alt="" width="200px" height="80px"></a>
+                              </div>
+                         </div>
+                         <div class="col-auto">
+                              <div class="nav" style="float: left;">
+                                   <ul class="nav-ul">
+                                        <li class="nav-li"><a class="nav-a" href="/BAI_THUC_HANH_2/html/index.html">Trang chủ</a></li>
+                                        <li class="nav-li"><a class="nav-a" href="#">Tin tức <i class="fas fa-angle-down"></i></a>
+                                             <ul class="nav-ul-2">
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Thời sự</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Thế giới</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Pháp luật</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Tài chính</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Thể thao</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Văn Hóa</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Công Nghệ</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Giải Trí</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Khoa học</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Sức khỏe</a></li>
+                                             </ul>
+                                        </li>
+                                        <li class="nav-li"><a class="nav-a" href="#">Văn Hóa <i class="fas fa-angle-down"></i></a>
+                                             <ul class="nav-ul-2">
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Châu Âu</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Châu Á</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Châu Phi</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Châu Mĩ</a></li>
+                                             </ul>
+                                        </li>
+                                        <li class="nav-li"><a class="nav-a" href="#">Thể Thao <i class="fas fa-angle-down"></i></a>
+                                             <ul class="nav-ul-2">
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Bóng đá</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Bóng rổ</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Cầu lông</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Điền kinh</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Nhảy xa</a></li>
+                                                  <li class="nav-li-2"><a class="nav-a" href="#">Nhảy cao</a></li>
+                                             </ul>
+                                        </li>
+                                        <li class="nav-li"><a class="nav-a" href="/BAI_THUC_HANH_2/html/lien-he.html">Liên hệ</a></li>
+                                   </ul>
+                              </div> 
+                         </div>                  
+                    </div>
+               </div>
+          </div>
+     <!-- end header -->
+
+     <!-- Begin main -->
+     <div class="main">
+          <!-- Begin backgroud -->
+          <div class="backgroud">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-3">
+                              <!-- Begin menu -->
+                              <div class="news">
+                                   <ul class="news-links">
+                                        <li class="news-shows"><h1 class="news-news">Tin mới</h1></li>
+                                   </ul>
+                                   <ul class="news-links">
+                                        <li class="news-shows"><a class="news-text" href="/BAI_THUC_HANH_2/html/bai-viet-1.html">Ngọc Trinh: ‘Tôi được mời đóng mỹ nhân Tư Nhị vì xinh đẹp’</a></li>
+                                        <li class="news-shows"><a class="news-text" href="/BAI_THUC_HANH_2/html/bai-viet-2.html">Neymar: 'Nó giống như cơn ác mộng, tôi muốn về nhà để... khóc'</a></li>
+                                        <li class="news-show"><a class="news-text" href="/BAI_THUC_HANH_2/html/bai-viet-3.html">'MC 3.000 chữ' Thanh Thanh Huyền trở thành đại diện nhan sắc Việt tại Miss Charm</a></li>
+                                   </ul>
+                              </div>
+
+                              <div class="ads">
+                                   <img src="/BAI_THUC_HANH_2/Picture/Body/right_banner.jpg" alt="" width="100%">
+                              </div>
+                              <!-- End menu -->
+                         </div>
+                         <div class="col-9">
+                              <!-- begin slider -->
+                              <div class="slider">
+                                   <div class="slide-container">
+                                        <div class="mySlides">
+                                             <a href="/BAI_THUC_HANH_2/html/bai-viet-1.html" class="mySlides-link"><img class="mySlides-img" src="/BAI_THUC_HANH_2/Picture/Body/Banner.jpg" style="width:100%" height="406px" ></a>
+                                             <div class="mySlides-label">
+                                                  <div class="label-heading"><a href="/BAI_THUC_HANH_2/html/bai-viet-1.html" class="mySlides-link">Ngọc Trinh: ‘Tôi được mời đóng mỹ nhân Tư Nhị vì xinh đẹp’</a></div>
+                                                  <div class="label-detail">
+                                                       <p class="label-text" style="font-size: 15px;">
+                                                            TTO - 'Tôi được nhận vai diễn này vì xinh đẹp. Rõ ràng tôi cũng phải đẹp thì anh Đãng mới mời tôi. Tôi không nói mình là người đẹp nhất nhưng tôi cũng là người đẹp”, Ngọc Trinh
+                                                       </p>
+                                                  </div>                
+                                             </div>
+                                        </div>
+                                        <div class="mySlides">
+                                             <a href="/BAI_THUC_HANH_2/html/bai-viet-2.html" class="mySlides-link"><img class="mySlides-img" src="/BAI_THUC_HANH_2/Picture/Body/Banner1.jpg" style="width:100%" height="406px" ></a>
+                                             <div class="mySlides-label">
+                                                  <div class="label-heading"><a href="/BAI_THUC_HANH_2/html/bai-viet-2.html" class="mySlides-link">Neymar: 'Nó giống như cơn ác mộng, tôi muốn về nhà để... khóc'</a></div>
+                                                  <div class="label-detail">
+                                                       <p class="label-text">
+                                                            TTO - Neymar đã bật khóc sau khi đội tuyển Brazil bị loại ở tứ kết World Cup 2022, anh có cảm giác 'giống như cơn ác mộng' và
+                                                       </p>
+                                                  </div>                
+                                             </div>
+                                        </div>
+                                        <div class="mySlides">
+                                             <a href="/BAI_THUC_HANH_2/html/bai-viet-3.html" class="mySlides-link"><img class="mySlides-img" src="/BAI_THUC_HANH_2/Picture/Body/Banner2.jpg" style="width:100%" height="406px" ></a>
+                                             <div class="mySlides-label">
+                                                  <div class="label-heading"><a href="/BAI_THUC_HANH_2/html/bai-viet-3.html" class="mySlides-link">Thanh Thanh Huyền trở thành đại diện nhan sắc Việt tại Miss Charm</a></div>
+                                                  <div class="label-detail">
+                                                       <p class="label-text">
+                                                            Xinh đẹp, tài năng và nổi tiếng với biệt danh 'MC 3.000 chữ', Thanh Thanh Huyền chính thức chiến thắng và trở thành nhan sắc 
+                                                       </p>
+                                                  </div>                
+                                             </div>
+                                        </div>
+                                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                   </div>
+                                   <br>
+                                   <div style="text-align:center">
+                                        <span class="dot" onclick="currentSlide(1)"></span>
+                                        <span class="dot" onclick="currentSlide(2)"></span>
+                                        <span class="dot" onclick="currentSlide(3)"></span>
+                                        <script src="/BAI_THUC_HANH_2/js/scriptSlide.js"></script>
+                                   </div>
+                              </div>
+                              <!-- end slider -->
+                              <div class="listposts">
+                                   <div class="distance"></div>
+                                   <ul>
+                                        <li class="posts">
+                                             <a class="post-link" href="/BAI_THUC_HANH_2/html/bai-viet-1.html"><img class="post-img" src="/BAI_THUC_HANH_2/Picture/Body/Banner.jpg" width="40%" height="201" alt=""></a>
+                                             <div class="post">
+                                                  <div class="post-heading"><a class="post-link" href="/BAI_THUC_HANH_2/html/bai-viet-1.html">Ngọc Trinh: ‘Tôi được mời đóng mỹ nhân Tư Nhị vì xinh đẹp’</a></div>
+                                                  <div class="post-detail">
+                                                       <a class="post-link" href="/BAI_THUC_HANH_2/html/bai-viet-1.html">
+                                                            <p class="post-gen">
+                                                                 TTO - 'Tôi được nhận vai diễn này vì xinh đẹp. Rõ ràng tôi cũng phải đẹp thì anh Đãng mới mời tôi. Tôi không nói mình là người đẹp nhất nhưng tôi cũng là người đẹp”, Ngọc Trinh chia sẻ về lý do đạo diễn Vũ Ngọc Đãng mời cô đóng phim Chị chị em em 2.
+                                                            </p>
+                                                            <p class="post-gen"></p>
+                                                       </a>
+                                                  </div>                
+                                             </div>
+                                        </li>
+                                        <li class="posts">
+                                             <a class="post-link" href="/BAI_THUC_HANH_2/html/bai-viet-2.html"><img class="post-img" src="/BAI_THUC_HANH_2/Picture/Body/Banner1.jpg" width="40%" height="201" alt=""></a>
+                                             <div class="post">
+                                                  <div class="post-heading"><a class="post-link" href="/BAI_THUC_HANH_2/html/bai-viet-2.html">Neymar: 'Nó giống như cơn ác mộng, tôi muốn về nhà để... khóc'</a></div>
+                                                  <div class="post-detail">
+                                                       <a class="post-link" href="/BAI_THUC_HANH_2/html/bai-viet-2.html">
+                                                            <p class="post-gen">
+                                                                 TTO - Neymar đã bật khóc sau khi đội tuyển Brazil bị loại ở tứ kết World Cup 2022, anh có cảm giác 'giống như cơn ác mộng' và cần thời gian để suy nghĩ về những gì đã trải qua.
+                                                            </p>
+                                                            <p class="post-gen"></p>
+                                                       </a>
+                                                  </div>                
+                                             </div>
+                                        </li>
+                                        <li class="posts">
+                                             <a class="post-link" href="/BAI_THUC_HANH_2/html/bai-viet-3.html"><img class="post-img" src="/BAI_THUC_HANH_2/Picture/Body/Banner2.jpg" width="40%" height="201" alt=""></a>
+                                             <div class="post">
+                                                  <div class="post-heading"><a class="post-link" href="/BAI_THUC_HANH_2/html/bai-viet-3.html">'MC 3.000 chữ' Thanh Thanh Huyền trở thành đại diện nhan sắc Việt tại Miss Charm</a></div>
+                                                  <div class="post-detail">
+                                                       <a class="post-link" href="/BAI_THUC_HANH_2/html/bai-viet-3.html">
+                                                            <p class="post-gen">
+                                                                 Xinh đẹp, tài năng và nổi tiếng với biệt danh 'MC 3.000 chữ', Thanh Thanh Huyền chính thức chiến thắng và trở thành nhan sắc đại diện Việt Nam tại Miss Charm 2023 sắp diễn ra.
+                                                            </p>
+                                                            <p class="post-gen"></p>
+                                                       </a>
+                                                  </div>                
+                                             </div>
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="container">
+                    <div class="row">
+                         <div class="col-3"></div>
+                         <div class="col-9">
+                              <div class="distance-1"></div>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="container">
+                    <div class="row">
+                         <div class="col-3"></div>
+                         <div class="col-9">
+                              <div class="pagination">
+                                   <a class="pagination-link" href=""><i class="fas fa-angle-double-left"></i></a>
+                                   <a class="pagination-link" href=""><i class="fas fa-angle-left"></i></a>
+                                   <a class="pagination-link" href="">1</a>
+                                   <a class="pagination-link" href="">2</a>
+                                   <a class="pagination-link" href="">3</a>
+                                   <a class="pagination-link" href="">4</a>
+                                   <a class="pagination-link" href="">5</a>
+                                   <a class="pagination-link" href=""><i class="fas fa-angle-right"></i></a>
+                                   <a class="pagination-link" href=""><i class="fas fa-angle-double-right"></i></a>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <!-- End backgroud -->
+     </div>
+     <!-- End main -->
+
+     <!-- Begin footer -->
+     <div class="container">
+          <div class="row">
+               <div class="col">
+                    <div class="distance-2"></div>
+               </div>
+          </div>
+     </div>
+
+     <div class="container">
+          <div class="row">
+               <div class="col">
+                    <div class="footer">
+                         <div class="footer-logo col-auto">
+                              <a href="/BAI_THUC_HANH_2/html/index.html"><img src="/BAI_THUC_HANH_2/Picture/Header/Logo.png" alt="" width="200px" height="80px"></a>
+                         </div>
+                    </div>
+               </div>
+               <div class="col">
+                    <div class="footer-contact">
+                         <ul class="footer-links">
+                              <li class="footer-show"><a class="footer-title" style="color:#000000;">Follow us: </a></li>
+                              <li class="footer-show"><a class="footer-a" href="#"><i class="fab fa-facebook-square"></i></a></li>
+                              <li class="footer-show"><a class="footer-a" href="#"><i class="fab fa-instagram"></i></a></li>
+                              <li class="footer-show"><a class="footer-a" href="#"><i class="fab fa-twitter"></i></a></li>
+                              <li class="footer-show"><a class="footer-a" href="#"><i class="fab fa-youtube"></i></a></li>
+                         </ul>
+                    </div>
+               </div>
+          </div>
+
+          <div class="container">
+               <div class="row">
+                    <div class="col">
+                         <div class="distance-map"></div>
+                    </div>
+               </div>
+          </div>
+          
+          <div class="container">
+               <div class="row">
+                    <div class="col-5">
+                         <div class="footer-about">
+                              <p>Chịu trách nhiệm quản lý nội dung: Đoàn Thanh niên Cộng sản Thành phố Hồ Chí Minh (Thành đoàn Thành phố Hồ Chí Minh)</p>
+                              <p>Hồ Chí Minh: Số 60A đường Hoàng Văn Thụ, Phường 9, Quận Phú Nhuận, Thành phố Hồ Chí Minh.</p>
+                              <p>Liên hệ quảng cáo :</p>
+                              <p><i class="fas fa-angle-right"></i> Email: tiepnhan@tuoitre.com.vn</p>
+                              <p><i class="fas fa-angle-right"></i> Hotline: 028.39973838</p>
+                         </div>
+                    </div>
+                    <div class="col">
+                         <div id="googleMap" style="width:68%;height: auto;float: right;">
+                              <iframe style="width:100%;height: 250px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.94674916613522!2d106.67836545862619!3d10.799975639767958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d7af886787%3A0x4d6e75b8ab7d0e27!2zQsOhbyBUdeG7lWkgVHLhurs!5e0!3m2!1svi!2s!4v1670641862791!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div class="copyright">
+          <div class="container">
+               <div class="row">
+                    <div class="col">
+                         <p class="text-copyright">Copyright © 2022 Nguyễn Hồng Cường. All Rights Reserved.</p>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- End footer -->
+     </body>
+</html>
